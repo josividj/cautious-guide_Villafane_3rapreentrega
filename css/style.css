@@ -1,0 +1,191 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Solitreo&display=swap');
+
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .navbar {
+    background-color: blanchedalmond;
+    font-family: "Solitreo", cursive;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  body {
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+  }
+
+.tittutorial{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+  label {
+      margin-bottom: 10px;
+  }
+
+.mb-3 .form-control{
+    line-height: 2.5em;
+}
+
+  input[type="text"] {
+      font-size: 0.6em;
+      line-height: 2.5em;
+  }
+
+  .contenedor {
+      text-align: center;
+      height: 90vh;
+      /* Ajusta la altura del contenedor a la altura de la pantalla */
+  }
+
+  .titulo {
+      border-width: 1em;
+      border-color: #F98F45;
+      border-style: outset;
+      font-size: 4em;
+  }
+
+  .titulo2 {
+      display: inline-block;
+      border-width: 1em;
+      border-color: aqua;
+      border-style: outset;
+      font-size: 3em;
+  }
+
+
+  .tutorial,
+  .ganador {
+      font-size: 1.5em;
+      text-align: left;
+  }
+
+  .ganador {
+      font-weight: 800;
+  }
+
+  .jugadores {
+      display: flex;
+      align-items: center;
+      font-size: 2.0em;
+  }
+
+  h3 {
+      display: inline-block;
+      position: relative;
+      font-size: 3em;
+      margin-bottom: 40px;
+      margin-top: 20px;
+  }
+
+  h3::before,
+  h3::after {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 3px;
+      background-color: currentColor;
+      top: 0.6em;
+      transform: scale(0);
+      transition: all 0.25 ease-in;
+  }
+
+  h3:hover::before,
+  h3:hover::after {
+      transform: scale(1);
+  }
+
+  h3::before {
+      left: -140px;
+
+  }
+
+  h3::after {
+      right: -140px;
+  }
+
+  /* .tutorial {
+      display: none;
+  } */
+
+  h3:hover+.tutorial {
+      display: block;
+  }
+
+  .continuar {
+      font-size: 3em;
+      font-weight: 700;
+      margin-top: 50px;
+      padding: 10px;
+  }
+
+  button[type="submit"] {
+      font-size: 27px;
+  }
+
+button[type="button"] {
+    font-size: 27px;
+}
+
+  .container {
+      justify-content: space-evenly;
+      font-size: 2.0em;
+      font-weight: 800;
+      padding: 20px;
+      max-width: 120vh;
+  }
+
+
+.col-lg-6 {
+    padding: 15px;
+}
+
+  .container2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+
+  .caja2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      font-size: 2.5em;
+      font-weight: 700;      
+  }
+
+  .cajamagica img {
+      width: auto;
+      height: 70vh;
+  }
+
+  .jugador {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .compu{
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+#consultar, #retirar, #depositar, #seguir {
+    font-size: 27px;
+  }
+
+  #numeroscompu{
+    font-size: 0.6em;
+  }
+
+  .margen{
+    margin-top: 50px;
+  }
